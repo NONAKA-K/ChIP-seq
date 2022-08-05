@@ -17,9 +17,3 @@ do
     samtools index $out
 done
 
-#bwa mapping 
-#bwa mem -t8 $ref $R1 $R2 | samtools sort -@ 4 > SRR14808558.bam
-#sam to bam convert
-#samtools sort -@ 4 SRR14808558.sam > SRR14808558.bam
-#indexing
-#samtools index SRR14808558.bam
